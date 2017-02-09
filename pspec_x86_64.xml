@@ -2,10 +2,11 @@
     <Source>
         <Name>python-krbv</Name>
         <Packager>
-            <Name>Ikey Doherty</Name>
-            <Email>ikey@solus-project.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Packager>
         <License>GPL-2.0</License>
+        <PartOf>programming.python</PartOf>
         <Summary xml:lang="en">Python extension module for Kerberos 5</Summary>
         <Description xml:lang="en">Python extension module for Kerberos 5
 </Description>
@@ -19,17 +20,21 @@
         <PartOf>programming.python</PartOf>
         <Files>
             <Path fileType="data">/usr/example/krbV-code-snippets.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/krbV.so</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/python_krbV-1.0.90-py2.7.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/python_krbV-1.0.90-py2.7.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/python_krbV-1.0.90-py2.7.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/python_krbV-1.0.90-py2.7.egg-info/top_level.txt</Path>
             <Path fileType="data">/usr/test/python-krbV-test.py</Path>
-            <Path fileType="library">/usr/lib/python2.7</Path>
         </Files>
     </Package>
     <History>
-        <Update release="3">
-            <Date>2016-02-06</Date>
+        <Update release="4">
+            <Date>2017-02-09</Date>
             <Version>1.0.90</Version>
             <Comment>Packaging update</Comment>
-            <Name>Ikey Doherty</Name>
-            <Email>ikey@solus-project.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Update>
     </History>
 </PISI>

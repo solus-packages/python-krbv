@@ -1,9 +1,10 @@
 name       : python-krbv
 version    : 1.0.90
-release    : 3
+release    : 4
 source     :
     - https://pypi.python.org/packages/source/p/python-krbV/python-krbV-1.0.90.tar.bz2 : b2e1544e3f600a8f5f403ca9038d8079e31271cb7560904d5453a2be8784ed7e
 license    : GPL-2.0
+component  : programming.python
 summary    : Python extension module for Kerberos 5
 description: |
     Python extension module for Kerberos 5
@@ -13,7 +14,7 @@ builddeps  :
     - pkgconfig(com_err)
     - python-setuptools
 build      : |
-    python setup.py build
+    %python_setup
 install    : |
-    python setup.py install --root=%installroot% --no-compile -O0
+    %python_install
 
