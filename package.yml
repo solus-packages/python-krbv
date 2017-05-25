@@ -1,6 +1,6 @@
 name       : python-krbv
 version    : 1.0.90
-release    : 4
+release    : 5
 source     :
     - https://pypi.python.org/packages/source/p/python-krbV/python-krbV-1.0.90.tar.bz2 : b2e1544e3f600a8f5f403ca9038d8079e31271cb7560904d5453a2be8784ed7e
 license    : GPL-2.0
